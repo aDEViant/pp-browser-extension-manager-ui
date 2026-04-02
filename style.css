@@ -53,6 +53,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .extensions-container-right > img {
@@ -80,7 +81,7 @@ body {
 }
 
 .extension-list-buttons {
-  border: none;
+  /* border: none; */
   background-color: hsl(226, 11%, 37%);
   color: white;
   font-size: 1rem;
@@ -94,14 +95,19 @@ body {
 
 #allButton {
   width: 3rem;
+  border: 1px solid hsl(226, 11%, 37%);
 }
 
 #activeButton {
   width: 4rem;
+  border: 1px solid hsl(226, 11%, 37%);
+
 }
 
 #inactiveButton {
   width: 5rem;
+  border: 1px solid hsl(226, 11%, 37%);
+
 }
 
 .extensions-display {
@@ -116,8 +122,8 @@ body {
 }
 
 .extension-card {
-  border: 2px solid white;
   background-color: hsl(225, 23%, 24%);
+  border: 1px solid hsl(226, 11%, 37%);
   color: white;
   border-radius: 15px;
   height: 8rem;
@@ -130,12 +136,6 @@ body {
   /* border: 2px solid violet; */
   height: 4rem;
   display: flex;
-}
-
-.devLensButtons {
-  border: 2px solid red;
-  margin-top: 0.5rem;
-  height: 1.8rem;
 }
 
 .devLensInfoImage {
@@ -158,11 +158,37 @@ body {
   font-size: 0.7rem;
 }
 
+.devLensButtons {
+  /* border: 2px solid red; */
+  margin-top: 0.5rem;
+  height: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .common-button {
   background-color: hsl(225, 23%, 24%);
-  border: 2px solid hsl(226, 11%, 37%);
+  border: 1px solid hsl(226, 11%, 37%);
+  border-radius: 15rem;
   color: hsl(200, 60%, 99%);
   height: 1.5rem;
   width: 5rem;
-  border-radius: 15rem;
 }
+
+/* .slider-container{
+  /* border: 2px solid white; */
+  height: 1.5rem;
+  width: 3rem;
+} */
+
+/* .slider{
+  border: 2px solid white;
+  border-radius: 15px;
+  height: 1.5rem;
+  width: 3rem;
+  cursor: pointer;
+  background-color: orangered;
+  transition: 0.4s;
+} */
+
